@@ -57,8 +57,8 @@ body {
        padding: 60px;
    }
    .hero {
-       background-image: url("../images\ 2/hero-bg.jpg");
-       height: 600px;
+       background-image: url("../images/hero-bg.jpg");
+       height: 700px;
        background-size: cover;
        background-position: center;
        position: relative;
@@ -107,8 +107,8 @@ body {
    .intro p {
        line-height: 1.7;
        color: #39a6b2;
-       width: 80%;
-       font-size: 20px;
+       width: 60%;
+       font-size: 30px;
        margin: 0 auto;
    }
    .steps {
