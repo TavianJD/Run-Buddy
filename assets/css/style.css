@@ -181,7 +181,7 @@ body {
 
    .checkbox-wrapper label, .radio-wrapper label {
        position: relative;
-       left: 10px;
+       left: 10depx;
        margin: 10px;
        line-height: 1.6;
    }
