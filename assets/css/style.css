@@ -188,12 +188,13 @@ body {
 
    .checkbox-wrapper label::before, .radio-wrapper label::before {
        content: "";
-       height: 20px;
+    height: 20px;
        width: 20px;
        background: rgba(255, 255, 255, .75);
        border: 1px solid var(--secondary-color);
        top: -4px;
        left: -30px;
+       position: absolute;
     }
 
     .radio-wrapper label::before {
@@ -224,12 +225,14 @@ body {
         transform: rotate(-58deg);
       }
 
-      .checkbox-wrapper input + label::after, .radio-wrapper input + label::after{
+      .checkbox-wrapper input + label::after, 
+      .radio-wrapper input + label::after{
           content: none;
       }
 
-      .checkbox-wrapper input:checked + label::after, .radio-wrapper input:checked + label::after {
-          content:"";
+      .checkbox-wrapper input:checked + label::after, 
+      .radio-wrapper input:checked + label::after {
+          content: "";
       }
 /* HERO STYLES END */
 
